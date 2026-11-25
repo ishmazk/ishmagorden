@@ -1,0 +1,2 @@
+FOLDER GAMBAR ARTIKEL
+Unggah gambar sampul artikel di sini, lalu tulis nama file pada baris "gambar:" di bagian atas file artikel (konten/artikel/...md), contoh: gambar: articles/memilih-gorden.jpg

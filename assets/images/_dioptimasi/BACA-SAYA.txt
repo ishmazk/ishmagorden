@@ -1,0 +1,2 @@
+FOLDER _dioptimasi
+Berisi versi WebP yang lebih ringan dari foto yang sudah ada. Tidak perlu disentuh. Foto baru yang Anda unggah tetap tampil walau tidak punya versi WebP.

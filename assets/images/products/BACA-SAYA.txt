@@ -1,0 +1,2 @@
+FOLDER FOTO PRODUK
+Unggah foto produk asli di sini, lalu tulis nama file di kolom "foto" pada data/produk.json (contoh: "products/boston-cokelat.jpg"). Jangan memakai foto produk palsu atau foto milik pihak lain tanpa izin.

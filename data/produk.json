@@ -1,0 +1,291 @@
+{
+  "_petunjuk": "Daftar kategori dan produk. Harga TIDAK ditulis di sini; harga diambil otomatis dari data/harga-sharp-point.json lewat kolom 'harga' (kode produk). 'foto' diisi nama file di assets/images/products/ (misal products/nama.jpg) atau gallery/..; kosongkan jika belum ada foto. Isi 'spesifikasi', 'warna', 'ukuran' hanya jika datanya benar.",
+  "kategori": [
+    {
+      "slug": "gorden-kain",
+      "nama": "Gorden Kain",
+      "deskripsi": "Koleksi kain gorden Sharp Point beserta varian dan harga katalog yang sudah ditranskripsi.",
+      "foto": "gallery/gorden-cokelat-ruang-klasik-ishma-gorden.jpg",
+      "alt": "Gorden cokelat di ruang bergaya klasik, hasil pemasangan ISHMA Gorden"
+    },
+    {
+      "slug": "vitrase",
+      "nama": "Vitrase",
+      "deskripsi": "Lapisan tipis pelengkap gorden untuk menyaring cahaya dan menjaga privasi.",
+      "foto": "gallery/gorden-abu-abu-vitrase-ishma-gorden.jpg",
+      "alt": "Gorden abu-abu dengan vitrase putih pada pintu kaca, hasil pemasangan ISHMA Gorden"
+    },
+    {
+      "slug": "window-blinds",
+      "nama": "Window Blinds",
+      "deskripsi": "Penutup jendela alternatif: roller, zebra, venus, ares, dan vertical blinds.",
+      "foto": "",
+      "alt": ""
+    },
+    {
+      "slug": "rel-aksesori",
+      "nama": "Rel & Aksesori",
+      "deskripsi": "Rel gorden dan komponen pendukung.",
+      "foto": "gallery/gorden-beige-pintu-utama-ishma-gorden.jpg",
+      "alt": "Gorden beige dengan hiasan atas pada pintu utama, hasil pemasangan ISHMA Gorden"
+    },
+    {
+      "slug": "gorden-motorized",
+      "nama": "Gorden Motorized",
+      "deskripsi": "Sistem gorden bermotor: motor, remote, dan rel dari beberapa merek.",
+      "foto": "gallery/gorden-jendela-tinggi-ishma-gorden.jpg",
+      "alt": "Gorden dan vitrase pada jendela tinggi, hasil pemasangan ISHMA Gorden"
+    },
+    {
+      "slug": "lainnya",
+      "nama": "Produk Lainnya",
+      "deskripsi": "Kategori lain dalam katalog Sharp Point dapat ditanyakan langsung.",
+      "foto": "",
+      "alt": ""
+    }
+  ],
+  "produk": [
+    {
+      "slug": "fiore-blackout-collection",
+      "nama": "Fiore Blackout Collection",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain bertipe blackout dari katalog Sharp Point. Detail warna dan ketersediaan dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "fiore-blackout-collection",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "snow-vitrage-collection",
+      "nama": "Snow Vitrage Collection",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi vitrase (vitrage) dari katalog Sharp Point dengan beberapa tingkat harga (V1 sampai V3).",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "snow-vitrage-collection",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "fresh",
+      "nama": "Fresh",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain gorden dari katalog Sharp Point. Detail motif, warna, dan ketersediaan varian dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "fresh",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "shera",
+      "nama": "Shera",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain gorden dari katalog Sharp Point. Detail motif, warna, dan ketersediaan varian dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "shera",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "lumiere-fabric",
+      "nama": "Lumiere Fabric",
+      "kategori": "gorden-kain",
+      "deskripsi": "Kain Lumiere tersedia dalam varian blackout dan vitrase pada katalog Sharp Point.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "lumiere-fabric",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "boston",
+      "nama": "Boston",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain gorden dari katalog Sharp Point. Detail motif, warna, dan ketersediaan varian dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "boston",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "velmo",
+      "nama": "Velmo",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain gorden dari katalog Sharp Point. Detail motif, warna, dan ketersediaan varian dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "velmo",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "limosa",
+      "nama": "Limosa",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain gorden dari katalog Sharp Point. Detail motif, warna, dan ketersediaan varian dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "limosa",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "dream",
+      "nama": "Dream",
+      "kategori": "gorden-kain",
+      "deskripsi": "Koleksi kain gorden dari katalog Sharp Point. Detail motif, warna, dan ketersediaan varian dikonsultasikan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "dream",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "gorden-custom",
+      "nama": "Gorden Custom",
+      "kategori": "gorden-kain",
+      "deskripsi": "Gorden yang disesuaikan dengan ukuran jendela, fungsi ruang, dan karakter interior. Bahan, model, dan harga dikonsultasikan.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "gallery/gorden-cokelat-pintu-kaca-ishma-gorden.jpg",
+      "alt": "Gorden cokelat dan vitrase di samping pintu kaca, hasil pemasangan ISHMA Gorden",
+      "harga": "",
+      "biaya_jahit": true
+    },
+    {
+      "slug": "vitrase-ishma",
+      "nama": "Vitrase",
+      "kategori": "vitrase",
+      "deskripsi": "Vitrase untuk menyaring cahaya dan menjaga privasi. Beberapa koleksi pada kategori Gorden Kain memiliki varian vitrase (misalnya Snow Vitrage dan Lumiere varian Vitrase). Varian lain mengikuti katalog dan ketersediaan.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "gallery/gorden-vitrase-cokelat-ishma-gorden.jpg",
+      "alt": "Gorden cokelat dan vitrase putih pada jendela, hasil pemasangan ISHMA Gorden",
+      "harga": "",
+      "biaya_jahit": false
+    },
+    {
+      "slug": "roller-blinds",
+      "nama": "Roller Blinds",
+      "kategori": "window-blinds",
+      "deskripsi": "Sistem penutup jendela dengan pilihan bahan dan mekanisme sesuai katalog produk. Harga belum ditampilkan; tanyakan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "",
+      "biaya_jahit": false
+    },
+    {
+      "slug": "zebra-venus-ares-blinds",
+      "nama": "Zebra / Venus / Ares Blinds",
+      "kategori": "window-blinds",
+      "deskripsi": "Pilihan blinds dengan karakter tampilan dan pengaturan cahaya yang berbeda. Spesifikasi dikonfirmasi per varian. Harga belum ditampilkan; tanyakan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "",
+      "biaya_jahit": false
+    },
+    {
+      "slug": "vertical-blinds-vertical-sheer",
+      "nama": "Vertical Blinds & Vertical Sheer",
+      "kategori": "window-blinds",
+      "deskripsi": "Pilihan penutup jendela vertikal untuk kebutuhan ruang tertentu. Harga belum ditampilkan; tanyakan melalui WhatsApp.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "",
+      "biaya_jahit": false
+    },
+    {
+      "slug": "rel-gorden",
+      "nama": "Curtain Tracks / Rel Gorden",
+      "kategori": "rel-aksesori",
+      "deskripsi": "Pilihan rel dan sistem track dengan tipe serta komponen sesuai katalog. Harga rel untuk sistem motorized tertera pada halaman produk motorized masing-masing merek. Harga rel manual belum ditampilkan.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "",
+      "biaya_jahit": false
+    },
+    {
+      "slug": "motorized-somfy",
+      "nama": "Motorized Somfy",
+      "kategori": "gorden-motorized",
+      "deskripsi": "Motor, remote/kontroler, dan rel merek Somfy sesuai katalog Sharp Point.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "motorized-somfy",
+      "motorized": true
+    },
+    {
+      "slug": "motorized-raex",
+      "nama": "Motorized Raex",
+      "kategori": "gorden-motorized",
+      "deskripsi": "Motor, kontroler, dan rel merek Raex sesuai katalog Sharp Point.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "motorized-raex",
+      "motorized": true
+    },
+    {
+      "slug": "motorized-novo",
+      "nama": "Motorized Novo",
+      "kategori": "gorden-motorized",
+      "deskripsi": "Motor, transmitter, dan rel merek Novo sesuai katalog Sharp Point.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "motorized-novo",
+      "motorized": true
+    },
+    {
+      "slug": "motorized-stage",
+      "nama": "Motorized Stage",
+      "kategori": "gorden-motorized",
+      "deskripsi": "Motor, remote, dan rel merek Stage (beban berat) sesuai katalog Sharp Point.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "motorized-stage",
+      "motorized": true
+    },
+    {
+      "slug": "produk-sharp-point-lainnya",
+      "nama": "Produk Sharp Point Lainnya",
+      "kategori": "lainnya",
+      "deskripsi": "Kategori lain dapat ditanyakan kepada admin untuk memastikan kesesuaian produk, spesifikasi, dan ketersediaan.",
+      "spesifikasi": [],
+      "warna": [],
+      "ukuran": [],
+      "foto": "",
+      "harga": "",
+      "biaya_jahit": false
+    }
+  ]
+}

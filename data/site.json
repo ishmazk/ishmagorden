@@ -1,0 +1,89 @@
+{
+  "_petunjuk": "Ubah informasi kontak dan identitas di sini. Simpan dengan Commit changes.",
+  "nama": "ISHMA Gorden Banyuwangi",
+  "namaPendek": "ISHMA Gorden",
+  "perusahaanInduk": "UD. ISHMA",
+  "tagline": "Integrated Home, Building & Lifestyle Solutions.",
+  "siteUrl": "",
+  "_siteUrl": "Kosongkan agar otomatis memakai alamat Netlify. Isi (contoh: https://www.namadomain.com) jika sudah memakai domain sendiri.",
+  "whatsapp": "6282331219722",
+  "whatsappTampil": "0823-3121-9722",
+  "instagram": "gordenbwi",
+  "tiktok": "gordenbwi",
+  "facebookNama": "ISHMA Gorden",
+  "facebookUrl": "https://www.facebook.com/share/1Dx5wo4SGv/",
+  "_facebookUrl": "Isi alamat lengkap halaman Facebook (https://www.facebook.com/...) agar tautan Facebook muncul di website.",
+  "tampilkanAlamat": true,
+  "alamat": "Jl. KH. Achmad Kholil Gg. Dahlia RT 004 RW 004, Dusun Cangaan, Desa Genteng Wetan, Kecamatan Genteng, Kabupaten Banyuwangi, Jawa Timur",
+  "_alamat": "Alamat showroom persis seperti di Google Maps. Ubah tampilkanAlamat menjadi false untuk menyembunyikannya.",
+  "unitUsaha": [
+    {
+      "nama": "ISHMA Gorden",
+      "status": "aktif",
+      "url": "/"
+    },
+    {
+      "nama": "ISHMA Interior",
+      "status": "segera"
+    },
+    {
+      "nama": "ISHMA Tailor",
+      "status": "segera"
+    }
+  ],
+  "wilayah": [
+    "Pesanggaran",
+    "Siliragung",
+    "Bangorejo",
+    "Purwoharjo",
+    "Tegaldlimo",
+    "Muncar",
+    "Cluring",
+    "Gambiran",
+    "Tegalsari",
+    "Glenmore",
+    "Kalibaru",
+    "Genteng",
+    "Srono",
+    "Rogojampi",
+    "Kabat",
+    "Singojuruh",
+    "Sempu",
+    "Songgon",
+    "Glagah",
+    "Licin",
+    "Banyuwangi",
+    "Giri",
+    "Kalipuro",
+    "Wongsorejo",
+    "Blimbingsari"
+  ],
+  "gmapsUrl": "https://maps.app.goo.gl/gcRZ3hYc2KPG7Xyy5",
+  "alamatKecamatan": "Genteng",
+  "jamBuka": [
+    {
+      "hari": "Senin - Sabtu",
+      "jam": "07.30 - 16.00 WIB",
+      "dari": "07:30",
+      "sampai": "16:00",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "hari": "Minggu",
+      "jam": "08.00 - 12.00 WIB",
+      "dari": "08:00",
+      "sampai": "12:00",
+      "days": [
+        "Sunday"
+      ]
+    }
+  ],
+  "jamOnline": "Setiap hari, 24 jam"
+}

@@ -1,0 +1,2 @@
+FOLDER FOTO HERO (gambar besar Beranda)
+Foto pertama berawalan "hero-beranda" di folder ini (jpg/jpeg/png/webp) dipakai sebagai gambar utama Beranda. Untuk mengganti: unggah foto baru dengan nama hero-beranda.jpg (pilih Replace/timpa), atau hapus yang lama lalu unggah yang baru.

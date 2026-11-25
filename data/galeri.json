@@ -1,0 +1,105 @@
+{
+  "_petunjuk": "OPSIONAL. Foto otomatis tampil walau tidak ditulis di sini. Jenis (Standart/Premium/Deluxe) ditentukan oleh FOLDER tempat foto diunggah: assets/images/gallery/standart, /premium, /deluxe. Tulis di sini hanya jika ingin judul/alt/urutan sendiri. Jika ingin memindahkan jenis TANPA memindahkan file, tambahkan baris \"tipe\": \"premium\" pada foto tersebut (tipe di sini mengalahkan folder).",
+  "foto": [
+    {
+      "file": "gorden-premium-jendela-tinggi-pelmet-tim-ishma.jpg",
+      "judul": "Gorden jendela tinggi dengan pelmet",
+      "alt": "Anggota tim ISHMA Gorden memegang bor di depan gorden cokelat muda dan vitrase putih setinggi plafon dengan pelmet putih"
+    },
+    {
+      "file": "gorden-beige-pintu-kaca-rod-hitam.jpg",
+      "judul": "Gorden beige di pintu kaca",
+      "alt": "Gorden beige dengan ring pada rel hitam dan vitrase putih di kedua sisi pintu kaca berbingkai kayu"
+    },
+    {
+      "file": "detail-ikatan-rumbai-gorden-beige.jpg",
+      "judul": "Detail ikatan rumbai",
+      "alt": "Detail pengikat gorden berumbai emas pada gorden beige berlipit rapi dengan vitrase di belakangnya"
+    },
+    {
+      "file": "gorden-abu-pelmet-kamar-ishma-gorden.jpg",
+      "judul": "Gorden abu-abu dengan pelmet",
+      "alt": "Gorden abu-abu tua dengan vitrase krem dan pelmet putih di bawah plafon kamar"
+    },
+    {
+      "file": "gorden-abu-vitrase-pelmet-lampu-led-tim-ishma.jpg",
+      "judul": "Gorden abu-abu dan vitrase, tim ISHMA",
+      "alt": "Anggota tim ISHMA Gorden berdiri di samping gorden abu-abu dan vitrase putih bertingkat dengan pelmet dan plafon berlampu LED biru"
+    },
+    {
+      "file": "gorden-abu-vitrase-pelmet-lampu-led.jpg",
+      "judul": "Gorden abu-abu dan vitrase bertingkat",
+      "alt": "Gorden abu-abu dengan pengikat dan vitrase putih bertingkat di bawah pelmet putih dan plafon berlampu LED biru"
+    },
+    {
+      "file": "detail-vitrase-halus-dan-ikatan-gorden-abu.jpg",
+      "judul": "Detail vitrase halus",
+      "alt": "Detail vitrase putih halus dan gorden abu-abu dengan pengikat kain"
+    },
+    {
+      "file": "gorden-abu-jendela-pintu-kaca-ring.jpg",
+      "judul": "Gorden abu-abu jendela dan pintu",
+      "alt": "Gorden abu-abu tua dengan vitrase putih pada jendela tinggi dan gorden kecil pada pintu kaca berbingkai kayu"
+    },
+    {
+      "file": "gorden-beige-ruang-tamu-plafon-segi-delapan.jpg",
+      "judul": "Gorden beige ruang tamu",
+      "alt": "Gorden beige dengan vitrase putih pada jendela besar ruang tamu berplafon segi delapan, tim ISHMA sedang bekerja"
+    },
+    {
+      "file": "gorden-abu-vitrase-jendela-kecil-tim-ishma.jpg",
+      "judul": "Gorden abu-abu dan vitrase",
+      "alt": "Anggota tim ISHMA Gorden mengacungkan jempol di antara dua jendela yang dipasangi gorden abu-abu dan vitrase putih"
+    },
+    {
+      "file": "gorden-vitrase-interior-elegan-ishma-gorden.jpg",
+      "judul": "Gorden dan vitrase ruang keluarga luas",
+      "alt": "Gorden dan vitrase warna netral pada ruang keluarga luas berlangit-langit tinggi dengan lampu gantung kristal"
+    },
+    {
+      "file": "gorden-jendela-tinggi-ishma-gorden.jpg",
+      "judul": "Gorden jendela tinggi",
+      "alt": "Gorden cokelat dan vitrase pada jendela dua lantai di ruang berlangit-langit tinggi"
+    },
+    {
+      "file": "gorden-model-klasik-ishma-gorden.jpg",
+      "judul": "Gorden model klasik berumbai",
+      "alt": "Gorden model klasik bergaya swag dengan rumbai dan vitrase putih di atas pintu kayu"
+    },
+    {
+      "file": "gorden-cokelat-ruang-klasik-ishma-gorden.jpg",
+      "judul": "Gorden cokelat ruang klasik",
+      "alt": "Gorden cokelat panjang dengan pengikat pada jendela tinggi di ruang bergaya klasik"
+    },
+    {
+      "file": "gorden-cokelat-pintu-kaca-ishma-gorden.jpg",
+      "judul": "Gorden cokelat di samping pintu kaca",
+      "alt": "Gorden cokelat dan vitrase putih di sisi pintu kaca ruang keluarga"
+    },
+    {
+      "file": "gorden-vitrase-cokelat-ishma-gorden.jpg",
+      "judul": "Gorden cokelat dan vitrase",
+      "alt": "Gorden cokelat dan vitrase putih pada jendela di dekat dinding bermotif marmer"
+    },
+    {
+      "file": "gorden-abu-abu-modern-ishma-gorden.jpg",
+      "judul": "Gorden abu-abu modern",
+      "alt": "Gorden abu-abu dan vitrase putih dengan kap bagian atas pada jendela lebar bergaya modern"
+    },
+    {
+      "file": "gorden-abu-abu-vitrase-ishma-gorden.jpg",
+      "judul": "Gorden abu-abu dan vitrase",
+      "alt": "Gorden abu-abu dengan vitrase putih pada pintu kaca geser yang lebar"
+    },
+    {
+      "file": "gorden-beige-pintu-utama-ishma-gorden.jpg",
+      "judul": "Nuansa beige di pintu utama",
+      "alt": "Gorden warna beige dengan hiasan bagian atas pada area pintu utama dua daun"
+    },
+    {
+      "file": "gorden-cokelat-emas-pintu-kayu-ishma-gorden.jpg",
+      "judul": "Gorden cokelat keemasan dan vitrase",
+      "alt": "Gorden cokelat keemasan dengan hiasan atas dan vitrase putih di samping pintu kayu, plafon kayu dengan lampu"
+    }
+  ]
+}

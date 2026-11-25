@@ -1,0 +1,20 @@
+{
+  "_petunjuk": "Nama dan deskripsi tiap tipe. Ubah teks deskripsi sesuai penjelasan tipe versi Anda (mis. bahan, model, atau rentang kebutuhan). Jangan mengubah 'slug'. Jangan menulis harga atau klaim yang belum pasti.",
+  "tipe": [
+    {
+      "slug": "standart",
+      "nama": "Standart",
+      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Standart oleh tim ISHMA Gorden."
+    },
+    {
+      "slug": "premium",
+      "nama": "Premium",
+      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Premium oleh tim ISHMA Gorden."
+    },
+    {
+      "slug": "deluxe",
+      "nama": "Deluxe",
+      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Deluxe oleh tim ISHMA Gorden."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+FOLDER FOTO GORDEN TIPE STANDART
+Unggah foto hasil pemasangan tipe Standart ke folder ini: Add file > Upload files > Commit changes.
+Tampil otomatis di Galeri > Standart dalam 1-2 menit.
+Nama file: huruf kecil tanpa spasi, contoh: gorden-abu-ruang-tamu-ishma-gorden.jpg

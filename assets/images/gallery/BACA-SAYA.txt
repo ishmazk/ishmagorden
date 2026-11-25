@@ -1,0 +1,4 @@
+FOLDER GALERI
+Pilih salah satu folder jenis di bawah ini, lalu unggah foto ke dalamnya:
+  standart/  premium/  deluxe/
+Foto yang ditaruh langsung di folder gallery ini (tanpa jenis) hanya tampil di halaman Galeri > Semua.

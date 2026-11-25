@@ -1,0 +1,3 @@
+FOLDER LOGO
+logo-ishma-gorden.png adalah logo resmi. Jangan diganti nama.
+_dioptimasi (di folder images) berisi salinan WebP otomatis; tidak perlu disentuh.

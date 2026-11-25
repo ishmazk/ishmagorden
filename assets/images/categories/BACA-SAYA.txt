@@ -1,0 +1,2 @@
+FOLDER GAMBAR KATEGORI
+Opsional. Nama file diisi pada kolom "foto" kategori di data/produk.json (contoh: "categories/vitrase.jpg").

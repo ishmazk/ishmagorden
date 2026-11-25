@@ -1,0 +1,574 @@
+{
+  "source": {
+    "document": "Sharp Point Price List 2025.pdf",
+    "pdf_pages": 50,
+    "price_rule": "Harga jual ISHMA mengikuti angka katalog Sharp Point persis. Dilarang menambah, mengurangi, membulatkan, atau mengubah harga.",
+    "verified_pages": [
+      35,
+      38
+    ],
+    "currency": "IDR",
+    "tax_note": "Halaman sumber mencantumkan harga sudah termasuk PPN, kecuali baris yang secara eksplisit diberi keterangan netto."
+  },
+  "curtain_fabrics": [
+    {
+      "name": "Fiore Blackout Collection",
+      "width": "1.40 m",
+      "variant": "Collection price",
+      "price": "Rp. 155.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Snow Vitrage Collection",
+      "width": "3.00 m",
+      "variant": "V1",
+      "price": "Rp. 150.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Snow Vitrage Collection",
+      "width": "3.00 m",
+      "variant": "V2",
+      "price": "Rp. 185.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Snow Vitrage Collection",
+      "width": "3.00 m",
+      "variant": "V3",
+      "price": "Rp. 215.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Fresh",
+      "width": "1.40 m",
+      "variant": "Collection price",
+      "price": "Rp. 175.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Shera",
+      "width": "2.80 m",
+      "variant": "Collection price",
+      "price": "Rp. 125.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Lumiere Fabric",
+      "width": "2.80 m",
+      "variant": "Blackout",
+      "price": "Rp. 665.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Lumiere Fabric",
+      "width": "2.80 m",
+      "variant": "Vitrase",
+      "price": "Rp. 350.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Boston",
+      "width": "3.00 m",
+      "variant": "1-15",
+      "price": "Rp. 385.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Boston",
+      "width": "3.00 m",
+      "variant": "16-24",
+      "price": "Rp. 430.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Boston",
+      "width": "3.00 m",
+      "variant": "25-36",
+      "price": "Rp. 480.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Velmo",
+      "width": "1.40 m",
+      "variant": "Collection price",
+      "price": "Rp. 430.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Limosa",
+      "width": "1.40 m",
+      "variant": "LISA / LINDRA",
+      "price": "Rp. 465.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Limosa",
+      "width": "1.40 m",
+      "variant": "LIZZO",
+      "price": "Rp. 520.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Limosa",
+      "width": "1.40 m",
+      "variant": "ALDO",
+      "price": "Rp. 545.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Dream",
+      "width": "3.00 m",
+      "variant": "Collection price",
+      "price": "Rp. 520.000",
+      "unit": "sesuai satuan katalog",
+      "printed_page": 34,
+      "pdf_page": 38
+    }
+  ],
+  "curtain_motors_and_tracks": [
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Movelite 35 WT",
+      "price": "Rp. 7.660.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Movelite 35 RTS",
+      "price": "Rp. 9.800.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Irismo Plus 35 WT",
+      "price": "Rp. 7.660.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Irismo Plus 35 RTS",
+      "price": "Rp. 9.800.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Glydea Ultra 35e WT",
+      "price": "Rp. 14.000.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Glydea Ultra 35e RTS",
+      "price": "Rp. 11.650.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Glydea Ultra 60e WT",
+      "price": "Rp. 15.300.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Motor",
+      "name": "Glydea Ultra 60e RTS",
+      "price": "Rp. 17.700.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Remote Situo RTS - 1 Ch",
+      "price": "Rp. 988.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Remote Situo Pure - 1 Ch",
+      "price": "Rp. 1.490.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Remote Situo Pure - 2 Ch",
+      "price": "Rp. 2.260.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Remote Situo Pure - 5 Ch",
+      "price": "Rp. 2.660.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Telis RTS Pure - 16 Ch",
+      "price": "Rp. 9.300.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Smoove Origin RTS Frame",
+      "price": "Rp. 1.650.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Controller",
+      "name": "Universal Receiver RTS",
+      "price": "Rp. 7.050.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Track",
+      "name": "Glydea Track Silent",
+      "price": "Rp. 2.400.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Somfy",
+      "type": "Track",
+      "name": "Glydea Track Regular",
+      "price": "Rp. 1.100.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Raex",
+      "type": "Motor",
+      "name": "DC MP 82 Tuya",
+      "price": "Rp. 2.100.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Raex",
+      "type": "Motor",
+      "name": "P35 Extendable 1.8 - 3.0 m",
+      "price": "Rp. 4.100.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Raex",
+      "type": "Motor",
+      "name": "P35 Extendable 2.3 - 4.0 m",
+      "price": "Rp. 4.500.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Raex",
+      "type": "Motor",
+      "name": "P35 Extendable 2.5 - 4.5 m",
+      "price": "Rp. 5.100.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Raex",
+      "type": "Controller",
+      "name": "Raex YR 5302 - 1 Ch",
+      "price": "Rp. 360.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Raex",
+      "type": "Track",
+      "name": "Raex Track",
+      "price": "Rp. 1.200.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Motor",
+      "name": "Curtain N21-4A5 - 1.2N",
+      "price": "Rp. 2.200.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Motor",
+      "name": "Curtain N21-3E - 1.2N TUYA",
+      "price": "Rp. 2.800.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Motor",
+      "name": "Curtain N21-3E - 1.2N",
+      "price": "Rp. 2.000.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Motor",
+      "name": "Curtain Extendable 167-300",
+      "price": "Rp. 3.750.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Motor",
+      "name": "Curtain Extendable 242-450",
+      "price": "Rp. 4.250.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Motor",
+      "name": "N31-3E-1.5 LED TUYA",
+      "price": "Rp. 2.500.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Controller",
+      "name": "Transmitter Button Black - 5 Ch",
+      "price": "Rp. 660.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Controller",
+      "name": "Stick-on Transmitter - 1 Ch",
+      "price": "Rp. 560.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Controller",
+      "name": "Stick-on Transmitter - 5 Ch",
+      "price": "Rp. 660.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Controller",
+      "name": "Transmitter N13 LED - 1 Ch",
+      "price": "Rp. 520.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Controller",
+      "name": "Transmitter N13 LED - 6 Ch",
+      "price": "Rp. 650.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Track",
+      "name": "Novo Track",
+      "price": "Rp. 988.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Novo",
+      "type": "Track",
+      "name": "Novo N31 LED Track",
+      "price": "Rp. 1.230.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Stage",
+      "type": "Motor",
+      "name": "Stage AT7601 [200 kg]",
+      "price": "Rp. 19.800.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Stage",
+      "type": "Motor",
+      "name": "Stage MJL600 WT [120 kg]",
+      "price": "Rp. 18.600.000",
+      "unit": "per unit",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Stage",
+      "type": "Controller",
+      "name": "Stage AT7601 Remote",
+      "price": "Rp. 650.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Stage",
+      "type": "Controller",
+      "name": "Stage MJL600 Remote",
+      "price": "Rp. 621.000",
+      "unit": "per pcs",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Stage",
+      "type": "Track",
+      "name": "Stage AT7601 Track",
+      "price": "Rp. 2.850.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "brand": "Stage",
+      "type": "Track",
+      "name": "Stage MJL600 Track",
+      "price": "Rp. 1.980.000",
+      "unit": "per meter",
+      "printed_page": 31,
+      "pdf_page": 35
+    }
+  ],
+  "sewing_and_installation_notes": [
+    {
+      "name": "Jahit rempel / triple pinch pleat",
+      "price": "Rp. 12.500/m1 netto",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Jahit eyelet / mata ayam",
+      "price": "Rp. 20.000/m1 netto",
+      "printed_page": 34,
+      "pdf_page": 38
+    },
+    {
+      "name": "Pemasangan motorized",
+      "price": "Rp. 250.000/set netto",
+      "printed_page": 31,
+      "pdf_page": 35
+    },
+    {
+      "name": "Pemasangan Bodetabek",
+      "price": "Rp. 450.000/set netto",
+      "printed_page": 31,
+      "pdf_page": 35,
+      "scope": "Wilayah Bodetabek sesuai keterangan katalog"
+    }
+  ],
+  "terms": [
+    "Harga kain pada halaman Curtain Fabric sudah termasuk PPN.",
+    "Biaya jahit dan biaya pemasangan yang ditandai netto tidak termasuk PPN.",
+    "Curtain motorized track set sudah termasuk rel, belt, runner, ceiling bracket, dan drive pulley set dengan minimum charge order 2,6 m.",
+    "Curved track (lengkung): regular track charge +60%.",
+    "Snake fold upgrade (ST): standard runner charge +Rp. 985.000/m.",
+    "Stage track: minimum charge order 5,0 m."
+  ]
+}
