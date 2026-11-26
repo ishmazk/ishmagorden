@@ -20,20 +20,20 @@
       "nama": "Window Blinds",
       "deskripsi": "Penutup jendela alternatif: roller, zebra, venus, ares, dan vertical blinds.",
       "foto": "",
-      "alt": ""
+      "alt": "Pilihan window blinds Sharp Point: zebra, venus, dan ares blinds untuk rumah dan kantor"
     },
     {
       "slug": "rel-aksesori",
       "nama": "Rel & Aksesori",
       "deskripsi": "Rel gorden dan komponen pendukung.",
-      "foto": "gallery/standart/gorden-beige-pintu-utama-ishma-gorden.jpg",
+      "foto": "",
       "alt": "Gorden beige dengan hiasan atas pada pintu utama, hasil pemasangan ISHMA Gorden"
     },
     {
       "slug": "gorden-motorized",
       "nama": "Gorden Motorized",
       "deskripsi": "Sistem gorden bermotor: motor, remote, dan rel dari beberapa merek.",
-      "foto": "gallery/deluxe/gorden-jendela-tinggi-ishma-gorden.jpg",
+      "foto": "",
       "alt": "Gorden dan vitrase pada jendela tinggi, hasil pemasangan ISHMA Gorden"
     },
     {
@@ -41,7 +41,7 @@
       "nama": "Produk Lainnya",
       "deskripsi": "Kategori lain dalam katalog Sharp Point dapat ditanyakan langsung.",
       "foto": "",
-      "alt": ""
+      "alt": "Produk Sharp Point lainnya: tenda membran dan kanopi layar untuk ruang terbuka"
     }
   ],
   "produk": [
@@ -198,7 +198,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "",
-      "biaya_jahit": false
+      "biaya_jahit": false,
+      "alt": "Roller blind blackout 100% Sharp Point dalam empat pilihan warna: krem, abu-abu, beige, dan cokelat"
     },
     {
       "slug": "zebra-venus-ares-blinds",
@@ -210,7 +211,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "",
-      "biaya_jahit": false
+      "biaya_jahit": false,
+      "alt": "Zebra Blinds Eco Slim, Venus Blinds Unity Color dengan cover box, dan Ares Blinds dengan cover box Fabric RA"
     },
     {
       "slug": "vertical-blinds-vertical-sheer",
@@ -222,7 +224,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "",
-      "biaya_jahit": false
+      "biaya_jahit": false,
+      "alt": "Vertical blinds Sharp Point pada pintu kaca geser, dengan pilihan warna kode SP.8004, SP.8003, dan SP.8008"
     },
     {
       "slug": "rel-gorden",
@@ -234,7 +237,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "",
-      "biaya_jahit": false
+      "biaya_jahit": false,
+      "alt": "Pilihan rel gorden ISHMA Gorden: rel aluminium, rel kayu, rel kuningan, dan rel hitam dengan ring"
     },
     {
       "slug": "motorized-somfy",
@@ -246,7 +250,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "motorized-somfy",
-      "motorized": true
+      "motorized": true,
+      "alt": "Motor tubular Somfy untuk gorden dan blinds motorized"
     },
     {
       "slug": "motorized-raex",
@@ -258,7 +263,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "motorized-raex",
-      "motorized": true
+      "motorized": true,
+      "alt": "Motor gorden elektrik berwarna putih dengan kabel dan port sambungan"
     },
     {
       "slug": "motorized-novo",
@@ -270,7 +276,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "motorized-novo",
-      "motorized": true
+      "motorized": true,
+      "alt": "Motor tubular NOVO beserta kemasan dan kabel untuk blinds motorized"
     },
     {
       "slug": "motorized-stage",
@@ -282,7 +289,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "motorized-stage",
-      "motorized": true
+      "motorized": true,
+      "alt": "Motor rel panggung (stage) untuk tirai besar motorized"
     },
     {
       "slug": "produk-sharp-point-lainnya",
@@ -294,7 +302,8 @@
       "ukuran": [],
       "foto": "",
       "harga": "",
-      "biaya_jahit": false
+      "biaya_jahit": false,
+      "alt": "Produk Sharp Point lainnya: tenda membran dan kanopi layar untuk ruang terbuka"
     }
   ]
 }
