@@ -50,9 +50,17 @@ Unggah foto baru dengan **nama file yang sama** di folder yang sama (menimpa). L
 ## F. Mengubah penjelasan tiap tipe
 Buka `data/tipe-gorden.json` → ubah teks `"deskripsi"` (jangan ubah `slug`). Jangan menulis harga atau klaim yang belum pasti.
 
-## G. Foto Beranda dan foto produk
-- Foto besar Beranda: `assets/images/hero/` (nama `hero-beranda.jpg`; hapus `.webp`-nya di `_dioptimasi/hero/` jika mengganti).
-- Foto produk: unggah ke `assets/images/products/`, lalu isi `"foto": "products/nama.jpg"` pada produk di `data/produk.json`.
+## G. Mengisi foto produk dan kategori yang masih kosong (otomatis dari nama file)
+Kartu yang bertulis "(foto menyusul)" terisi **hanya dengan mengunggah foto yang namanya sama dengan nama produknya**. Daftar nama file ada di `DAFTAR-NAMA-FOTO-PRODUK.md`.
+1. GitHub → `assets` → `images` → **`products`** (foto produk) atau **`categories`** (foto kategori).
+2. **Add file** → **Upload files** → pilih foto → **Commit changes**.
+3. **Nama file harus persis** seperti di daftar. Contoh: `boston.jpg`, `motorized-somfy.jpg`, `roller-blinds.jpg` (produk); `window-blinds.jpg`, `lainnya.jpg` (kategori).
+4. Tunggu 1-2 menit. Foto tampil di kartu katalog dan halaman produknya. Tidak ada file lain yang perlu diubah.
+Ganti foto: unggah nama yang sama (menimpa). Hapus foto: hapus file-nya.
+Gunakan foto asli (mis. foto kain atau produk yang Anda ambil sendiri atau foto resmi yang boleh dipakai).
+
+## H. Foto besar Beranda
+`assets/images/hero/` (nama `hero-beranda.jpg`; hapus `.webp`-nya di `assets/images/_dioptimasi/hero/` jika menimpa).
 
 ## Aturan penting
 - Hanya unggah foto hasil kerja sendiri atau yang sudah Anda punya izinnya. Jangan memakai foto toko lain atau foto internet sebagai hasil pemasangan ISHMA.

@@ -1,18 +1,18 @@
 {
-  "_petunjuk": "Daftar kategori dan produk. Harga TIDAK ditulis di sini; harga diambil otomatis dari data/harga-sharp-point.json lewat kolom 'harga' (kode produk). 'foto' diisi nama file di assets/images/products/ (misal products/nama.jpg) atau gallery/..; kosongkan jika belum ada foto. Isi 'spesifikasi', 'warna', 'ukuran' hanya jika datanya benar.",
+  "_petunjuk": "Daftar kategori dan produk. Harga TIDAK ditulis di sini; harga diambil otomatis dari data/harga-sharp-point.json lewat kolom 'harga'. FOTO: cukup unggah foto ke assets/images/products/<slug>.jpg (produk) atau assets/images/categories/<slug>.jpg (kategori) dengan nama persis sama dengan 'slug'. Kolom 'foto' hanya perlu diisi jika ingin memakai foto dengan nama lain. Isi 'spesifikasi', 'warna', 'ukuran' hanya jika datanya benar.",
   "kategori": [
     {
       "slug": "gorden-kain",
       "nama": "Gorden Kain",
       "deskripsi": "Koleksi kain gorden Sharp Point beserta varian dan harga katalog yang sudah ditranskripsi.",
-      "foto": "gallery/gorden-cokelat-ruang-klasik-ishma-gorden.jpg",
+      "foto": "gallery/premium/gorden-cokelat-ruang-klasik-ishma-gorden.jpg",
       "alt": "Gorden cokelat di ruang bergaya klasik, hasil pemasangan ISHMA Gorden"
     },
     {
       "slug": "vitrase",
       "nama": "Vitrase",
       "deskripsi": "Lapisan tipis pelengkap gorden untuk menyaring cahaya dan menjaga privasi.",
-      "foto": "gallery/gorden-abu-abu-vitrase-ishma-gorden.jpg",
+      "foto": "gallery/standart/gorden-abu-abu-vitrase-ishma-gorden.jpg",
       "alt": "Gorden abu-abu dengan vitrase putih pada pintu kaca, hasil pemasangan ISHMA Gorden"
     },
     {
@@ -26,14 +26,14 @@
       "slug": "rel-aksesori",
       "nama": "Rel & Aksesori",
       "deskripsi": "Rel gorden dan komponen pendukung.",
-      "foto": "gallery/gorden-beige-pintu-utama-ishma-gorden.jpg",
+      "foto": "gallery/standart/gorden-beige-pintu-utama-ishma-gorden.jpg",
       "alt": "Gorden beige dengan hiasan atas pada pintu utama, hasil pemasangan ISHMA Gorden"
     },
     {
       "slug": "gorden-motorized",
       "nama": "Gorden Motorized",
       "deskripsi": "Sistem gorden bermotor: motor, remote, dan rel dari beberapa merek.",
-      "foto": "gallery/gorden-jendela-tinggi-ishma-gorden.jpg",
+      "foto": "gallery/deluxe/gorden-jendela-tinggi-ishma-gorden.jpg",
       "alt": "Gorden dan vitrase pada jendela tinggi, hasil pemasangan ISHMA Gorden"
     },
     {
@@ -161,7 +161,7 @@
       "spesifikasi": [],
       "warna": [],
       "ukuran": [],
-      "foto": "gallery/gorden-cokelat-pintu-kaca-ishma-gorden.jpg",
+      "foto": "gallery/premium/gorden-cokelat-pintu-kaca-ishma-gorden.jpg",
       "alt": "Gorden cokelat dan vitrase di samping pintu kaca, hasil pemasangan ISHMA Gorden",
       "harga": "",
       "biaya_jahit": true
@@ -174,7 +174,7 @@
       "spesifikasi": [],
       "warna": [],
       "ukuran": [],
-      "foto": "gallery/gorden-vitrase-cokelat-ishma-gorden.jpg",
+      "foto": "gallery/premium/gorden-vitrase-cokelat-ishma-gorden.jpg",
       "alt": "Gorden cokelat dan vitrase putih pada jendela, hasil pemasangan ISHMA Gorden",
       "harga": "",
       "biaya_jahit": false

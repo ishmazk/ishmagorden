@@ -14,6 +14,14 @@ const warn = [];
 const site = rj('data/site.json');
 const produkData = rj('data/produk.json');
 const hargaData = rj('data/harga-sharp-point.json');
+// Foto kategori/produk otomatis: assets/images/categories/<slug>.jpg dan assets/images/products/<slug>.jpg
+function fotoOf(dir, slug, explicit) {
+  if (explicit) { if (exists('assets/images/' + explicit)) return explicit; warn.push(`Foto "${explicit}" untuk ${slug} tidak ditemukan; dicari berdasarkan nama slug.`); }
+  for (const ext of ['jpg', 'jpeg', 'png', 'webp', 'JPG', 'JPEG', 'PNG']) if (exists(`assets/images/${dir}/${slug}.${ext}`)) return `${dir}/${slug}.${ext}`;
+  return '';
+}
+for (const k of produkData.kategori) k.foto = fotoOf('categories', k.slug, k.foto);
+for (const p of produkData.produk) p.foto = fotoOf('products', p.slug, p.foto);
 const faq = rj('data/faq.json');
 const layanan = rj('data/layanan.json');
 let galeriCfg = { foto: [] };
