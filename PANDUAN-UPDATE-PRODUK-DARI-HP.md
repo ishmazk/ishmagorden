@@ -71,3 +71,14 @@ Tip: cek penulisan JSON di jsonlint.com (tempel isi file) sebelum commit.
 
 ## Yang masih perlu dicek manual
 Lihat `LAPORAN/DAFTAR-BELUM-SELESAI.md`.
+
+---
+
+## Mengubah harga gorden custom (Standart, Premium, Deluxe, Custom Box)
+
+1. Di GitHub buka folder `data`, lalu file `tipe-gorden.json`.
+2. Ketuk ikon pensil (Edit).
+3. Ubah angka `harga_min` (harga terendah) dan `harga_maks` (harga tertinggi). Tulis angka saja, tanpa titik dan tanpa "Rp". Contoh: `550000`.
+4. Ketuk **Commit changes**. Website diperbarui otomatis dalam 1–2 menit.
+
+Harga tampil di halaman Gorden Custom, halaman galeri tiap tipe, dan FAQ. Teks FAQ tentang harga custom ada di `data/faq.json`; ubah juga jika harga berubah.

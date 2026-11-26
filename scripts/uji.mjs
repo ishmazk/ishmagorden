@@ -44,8 +44,15 @@ for (const f of htmls) {
   for (const m of h.matchAll(/href="(\/[^"#]*)#([^"]+)"/g)) { const target = path.join(DIST, m[1] === '/' ? '' : m[1], m[1].endsWith('/') || m[1] === '/' ? 'index.html' : ''); if (fs.existsSync(target)) t(`${u} anchor #${m[2]} ada di ${m[1]}`, new RegExp(`id="${m[2]}"`).test(fs.readFileSync(target, 'utf8'))); }
   for (const m of h.matchAll(/Rp\.? ?[\d.]+/g)) hargaTerlihat.push([u, m[0]]);
 }
+// harga gorden custom milik ISHMA (data/tipe-gorden.json), dicocokkan persis dengan data
+const tg = JSON.parse(fs.readFileSync('data/tipe-gorden.json', 'utf8'));
+const rpf = (n) => 'Rp ' + Number(n).toLocaleString('id-ID');
+const hargaCustom = new Set([...tg.tipe.flatMap((x) => [x.harga_min, x.harga_maks]), tg.custom_box.harga_min, tg.custom_box.harga_maks].map(rpf));
+const EXPECT = { standart: [550000, 650000], premium: [750000, 850000], deluxe: [950000, 1500000] };
+for (const x of tg.tipe) t(`harga custom ${x.slug} sesuai permintaan pemilik`, x.harga_min === EXPECT[x.slug][0] && x.harga_maks === EXPECT[x.slug][1]);
+t('custom box 250.000-850.000', tg.custom_box.harga_min === 250000 && tg.custom_box.harga_maks === 850000);
 // 3. harga yang tampil harus ada di sumber asli
-for (const [u, p] of hargaTerlihat) { const ok1 = asliHarga.has(p) || biayaAsli.some((b) => b.startsWith(p)) || asli.terms.some((x) => x.includes(p)); t(`harga ${p} di ${u} ada di sumber asli`, ok1); }
+for (const [u, p] of hargaTerlihat) { const ok1 = asliHarga.has(p) || hargaCustom.has(p.replace(/\.$/, '')) || biayaAsli.some((b) => b.startsWith(p)) || asli.terms.some((x) => x.includes(p)); t(`harga ${p} di ${u} ada di sumber asli`, ok1); }
 const all = htmls.map((f) => fs.readFileSync(f, 'utf8')).join('\n');
 t('harga yang ditandai perlu-cek tidak tampil', !all.includes('14.000.000'));
 t('tarif Bodetabek tidak tampil', !/Bodetabek/.test(all));

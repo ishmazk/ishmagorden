@@ -1,20 +1,34 @@
 {
-  "_petunjuk": "Nama dan deskripsi tiap tipe. Ubah teks deskripsi sesuai penjelasan tipe versi Anda (mis. bahan, model, atau rentang kebutuhan). Jangan mengubah 'slug'. Jangan menulis harga atau klaim yang belum pasti.",
+  "_petunjuk": "Nama, deskripsi, dan harga tiap tipe gorden custom. Harga ditulis persis seperti yang Anda tentukan (tanpa dibulatkan). Ubah angka di 'harga_min' dan 'harga_maks' (dalam rupiah, angka saja) bila harga berubah. Jangan mengubah 'slug'.",
   "tipe": [
     {
       "slug": "standart",
       "nama": "Standart",
-      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Standart oleh tim ISHMA Gorden."
+      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Standart oleh tim ISHMA Gorden.",
+      "harga_min": 550000,
+      "harga_maks": 650000
     },
     {
       "slug": "premium",
       "nama": "Premium",
-      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Premium oleh tim ISHMA Gorden."
+      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Premium oleh tim ISHMA Gorden.",
+      "harga_min": 750000,
+      "harga_maks": 850000
     },
     {
       "slug": "deluxe",
       "nama": "Deluxe",
-      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Deluxe oleh tim ISHMA Gorden."
+      "deskripsi": "Kumpulan foto hasil pemasangan gorden tipe Deluxe oleh tim ISHMA Gorden.",
+      "harga_min": 950000,
+      "harga_maks": 1500000
     }
-  ]
+  ],
+  "satuan": "per meter, fullset, mulai dari",
+  "custom_box": {
+    "nama": "Custom Box",
+    "harga_min": 250000,
+    "harga_maks": 850000,
+    "satuan": "per meter, biaya tambahan, mulai dari"
+  },
+  "catatan": "Harga final menyesuaikan jenis dan kriteria kain, ukuran, dan model. Dikonfirmasi melalui WhatsApp setelah ukuran dan kebutuhan jelas."
 }

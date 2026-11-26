@@ -74,7 +74,8 @@ const halSumber = (rows) => [...new Set(rows.map((r) => r.hal_cetak))].sort((a, 
 
 // ---------- galeri otomatis (per tipe: standart / premium / deluxe) ----------
 let tipeCfg = [{ slug: 'standart', nama: 'Standart', deskripsi: '' }, { slug: 'premium', nama: 'Premium', deskripsi: '' }, { slug: 'deluxe', nama: 'Deluxe', deskripsi: '' }];
-try { tipeCfg = rj('data/tipe-gorden.json').tipe; } catch (e) { warn.push('data/tipe-gorden.json tidak terbaca: ' + e.message); }
+let tipeAll = {};
+try { tipeAll = rj('data/tipe-gorden.json'); tipeCfg = tipeAll.tipe; } catch (e) { warn.push('data/tipe-gorden.json tidak terbaca: ' + e.message); }
 const TIPE = tipeCfg.map((x) => x.slug);
 function buildGallery() {
   const found = []; // {file, folder}
@@ -343,6 +344,8 @@ function pageProduk(p) {
     priceHtml = `<h2>Harga katalog</h2>` + (isKain ? priceTable(rows, 'kain') : motor.map((m) => `<h3>${esc({ Motor: 'Motor', Controller: 'Remote / kontroler', Track: 'Rel (track)' }[m.j])}</h3>${priceTable(m.r, 'motor')}`).join('')) + srcNote(rows);
     if (isKain) priceHtml += `<p class="src">${esc(ket[0])}</p>`;
     if (p.motorized) priceHtml += `<h3>Biaya pemasangan motorized</h3>${priceTable(biayaMotor, 'biaya')}${srcNote(biayaMotor)}<div class="notice"><strong>Ketentuan (sesuai katalog):</strong><ul>${ket.slice(2).map((k) => `<li>${esc(k)}</li>`).join('')}</ul></div>`;
+  } else if (p.slug === 'gorden-custom' && hargaCustomHtml('')) {
+    priceHtml = hargaCustomHtml('');
   } else {
     priceHtml = `<div class="notice"><strong>Harga:</strong> belum ditampilkan di website. Silakan tanyakan harga dan ketersediaan terbaru melalui WhatsApp.</div>`;
   }
@@ -360,6 +363,17 @@ ${rel.length ? `<h2 style="margin-top:56px">Produk terkait</h2><div class="grid 
 ${ctaBand('Konsultasi', `Tertarik dengan ${p.nama}?`, 'Kami bantu cek ketersediaan dan arahkan pilihan yang cocok untuk ruangan Anda.', `Halo ISHMA Gorden, saya tertarik dengan ${p.nama}. Mohon info lebih lanjut.`)}`;
   const ld = [{ '@type': 'Product', name: p.nama, description: p.deskripsi, category: kat.nama, brand: { '@type': 'Brand', name: 'Sharp Point' }, url: abs(`/produk/${p.slug}/`), ...(p.foto && exists('assets/images/' + p.foto) ? { image: abs('/assets/images/' + p.foto) } : {}) }];
   layout({ url: `/produk/${p.slug}/`, title: `${p.nama} - ISHMA Gorden Banyuwangi`, desc: `${p.nama}: ${p.deskripsi}`.slice(0, 158), body, ld, crumbs });
+}
+
+
+// ---------- HARGA GORDEN CUSTOM (data/tipe-gorden.json) ----------
+const rp = (n) => 'Rp ' + Number(n).toLocaleString('id-ID');
+const rentang = (x) => `${rp(x.harga_min)} – ${rp(x.harga_maks)}`;
+function hargaCustomHtml(aktif) {
+  const rows = tipeCfg.filter((x) => x.harga_min).map((x) => `<tr${aktif === x.slug ? ' class="on"' : ''}><th scope="row"><a href="/galeri/${x.slug}/">${esc(x.nama)}</a></th><td>${rentang(x)}</td></tr>`);
+  const cb = tipeAll.custom_box && tipeAll.custom_box.harga_min ? `<tr><th scope="row">${esc(tipeAll.custom_box.nama)} (biaya tambahan)</th><td>${rentang(tipeAll.custom_box)}</td></tr>` : '';
+  if (!rows.length) return '';
+  return `<section class="hc"><h2>Harga gorden custom per meter</h2><div class="tw"><table><thead><tr><th>Tipe</th><th>Fullset, mulai dari (per meter)</th></tr></thead><tbody>${rows.join('')}${cb}</tbody></table></div><p class="micro">${esc(tipeAll.catatan || '')}</p></section>`;
 }
 
 // ---------- GALERI ----------
@@ -381,7 +395,7 @@ function pageGaleriTipe(tp) {
   const url = `/galeri/${tp.slug}/`;
   const crumbs = [['Beranda', '/'], ['Galeri', '/galeri/'], [`Gorden ${tp.nama}`, url]];
   const body = `${pageHero(crumbs, 'Galeri', `Gorden tipe ${tp.nama}.`, tp.deskripsi || `Foto hasil pemasangan gorden tipe ${tp.nama} oleh tim ISHMA Gorden.`)}
-<div class="wrap main">${galeriTabs(tp.slug)}${list.length ? `<div class="gal">${list.map(figHtml).join('')}</div>` : '<p>Foto tipe ini akan segera ditambahkan.</p>'}</div>
+<div class="wrap main">${galeriTabs(tp.slug)}${tp.harga_min ? `<div class="notice"><strong>Harga gorden ${esc(tp.nama)}:</strong> fullset mulai ${rentang(tp)} per meter. ${esc(tipeAll.catatan || '')}</div>` : ''}${list.length ? `<div class="gal">${list.map(figHtml).join('')}</div>` : '<p>Foto tipe ini akan segera ditambahkan.</p>'}${hargaCustomHtml(tp.slug) ? `<div style="margin-top:46px">${hargaCustomHtml(tp.slug)}</div>` : ''}</div>
 ${ctaBand(`Tertarik tipe ${tp.nama}?`, `Tanyakan gorden tipe ${tp.nama}.`, 'Kami bantu arahkan bahan dan model yang sesuai dengan ruangan Anda.', `Halo ISHMA Gorden, saya tertarik dengan gorden tipe ${tp.nama}. Mohon info lebih lanjut.`)}`;
   const ld = list.length ? [{ '@type': 'ImageGallery', name: `Galeri gorden tipe ${tp.nama} - ISHMA Gorden`, url: abs(url), image: list.slice(0, 20).map((g) => abs('/assets/images/' + g.rel)) }] : [];
   layout({ url, noindex: !list.length, title: `Gorden ${tp.nama} Banyuwangi - Galeri | ISHMA Gorden`, desc: `Foto hasil pemasangan gorden tipe ${tp.nama} oleh ISHMA Gorden Banyuwangi. Lihat model dan konsultasikan kebutuhan Anda via WhatsApp.`, body, crumbs, ld });
